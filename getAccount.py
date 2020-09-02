@@ -1,6 +1,5 @@
 from common import genAppSecretProof,getFBConfig
 import facebook
-from datetime import datetime
 
 def main():
     my_app_secret=getFBConfig('app_secret')
