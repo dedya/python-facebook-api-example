@@ -2,11 +2,9 @@ import configparser
 import hashlib
 import hmac
 
-#from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String
-
 #read config.ini
 config=configparser.ConfigParser()
-folderPath = "D:/home/dedy/training/python-training/fb"
+folderPath = "{path}"
 config.read(folderPath+'/config.ini')
 
 def getFBConfig(param):
